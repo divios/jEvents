@@ -28,8 +28,6 @@ you are good to go
 
 More examples of the api usage:
 
-<details>
-	<summary><b>Filters</b></summary>
 
 ```java
 JEvents.subscribe(InventoryClickEvent.class)
@@ -41,10 +39,6 @@ JEvents.subscribe(InventoryClickEvent.class)
         });
 ```
 
-</details>  
-
-<details>
-	<summary><b>BiHandlers</b></summary>
 
 ```java
 JEvents.subscribe(PlayerDeathEvent.class)
@@ -53,8 +47,6 @@ JEvents.subscribe(PlayerDeathEvent.class)
         subscription.unregister();    // Unregisters the listener
         });
 ```
-</details>  
-
 
 # Instalation
 
