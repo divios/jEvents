@@ -1,4 +1,4 @@
-# jCommands [![](https://jitpack.io/v/divios/JEvents.svg)](https://jitpack.io/#divios/JEvents)
+# jEvents [![](https://jitpack.io/v/divios/JEvents.svg)](https://jitpack.io/#divios/JEvents)
 
 Light weight and simple library to create spigot events in the go.
 
