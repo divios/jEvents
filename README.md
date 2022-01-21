@@ -18,8 +18,8 @@ jEvents provides a very simple event creation abstraction. Here is an example:
 ```java
     JEvents.subscribe(InventoryClickEvent.class)  // The class of the event you want to listen
         .handler(event->{
-        event.setCancelled(true);
-        // Do something here
+                event.setCancelled(true);
+                // Do something here
         });
 ```
 
@@ -34,8 +34,8 @@ JEvents.subscribe(InventoryClickEvent.class)
         .filter(event -> event.getInventory().equals(myInv))   // Only apply the action inside the handler
         .filter(event -> event.getSlot() == 3)     // if the filters are met
         .handler(event -> {
-        event.setCancelled(true);
-        // Do something here
+                event.setCancelled(true);
+                // Do something here
         });
 ```
 
@@ -43,8 +43,8 @@ JEvents.subscribe(InventoryClickEvent.class)
 ```java
 JEvents.subscribe(PlayerDeathEvent.class)
         .biHandler((subscription, playerDeathEvent) -> {
-        playerDeathEvent.setDeathMessage("Ha you died loser");
-        subscription.unregister();    // Unregisters the listener
+                playerDeathEvent.setDeathMessage("Ha you died loser");
+                subscription.unregister();    // Unregisters the listener
         });
 ```
 
