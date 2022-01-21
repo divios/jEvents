@@ -1,0 +1,4 @@
+name: JEvents
+version: '${version}'
+main: io.github.divios.jevents.JEvents
+api-version: 1.13
