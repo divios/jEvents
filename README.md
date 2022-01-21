@@ -7,10 +7,10 @@ Light weight and simple library to create spigot events in the go.
 First, to use the api, you need to register your plugin
 
 ```java
-    @Override
-public void onEnable(){
+@Override
+public void onEnable() {
         JEvents.register(this);
-        }
+}
 ```
 
 jEvents provides a very simple event creation abstraction. Here is an example:
